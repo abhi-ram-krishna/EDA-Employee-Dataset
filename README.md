@@ -6,11 +6,13 @@ The dataset containing employee attributes was analyzed based on given queries, 
   
   - [About the Dataset]
   - [Python libraries used]
+  - [Problem Statement]
   - [Project Work flow]
+  - [Data Preprocessing]
   - [purpose of the analysis]
 
 
-## **About the Dataset – AIRBNB BOOKINGS**
+## **About the Dataset**
 
 ### Dataset Information
 * Number of rows/instances: 458
@@ -20,8 +22,12 @@ The dataset containing employee attributes was analyzed based on given queries, 
 
 *   link to dataset : https://docs.google.com/spreadsheets/d/1VP9BE_eI2yl6uUHSm4mGiiwjRdoqCqnkcIjsv5Q2ex4/edit?usp=share_link
 
+*   Categorical data: Name, Team, Position, College
 
-## ** Python Libraries Used
+*   Numerical data: Number, Age, Height, Weight, Salary
+
+
+## ** Python Libraries Used**
 
 * Pandas
 
@@ -32,29 +38,11 @@ The dataset containing employee attributes was analyzed based on given queries, 
 * Matplotlib.Pyplot
 
 
-
-## **Project Work flow**
-
-1. Importing Libraries
-
-2. Loading the Dataset
-
-3. Explore/Inspect Dataset
-
-3. Data Cleaning
-
-4. Performing Analysis Tasks 
-
-5. Data Visualization
-
-6. Deriving Insights
-
-
 ## **Problem Statement** 
 
-<p>you'll be working with a dataset from ABC company, consisting of 458 rows and 9 columns. The company requires a comprehensive report detailing information about their employees across various teams. Your tasks include preprocessing the dataset, analyzing the data, and presenting your findings graphically. Here's a breakdown of what you need to do:</p>
+<p>As a culminating project, you'll be working with a dataset from ABC company, consisting of 458 rows and 9 columns. The company requires a comprehensive report detailing information about their employees across various teams. Your tasks include preprocessing the dataset, analyzing the data, and presenting your findings graphically. Here's a breakdown of what you need to do:</p>
 <p>Preprocessing:
-Correct the data in the "height" column by replacing it with random numbers between 150 and 180. Ensure data consistency and integrity before proceeding with analysis. (1 mark)</p>
+Correct the data in the "Height" column by replacing it with random numbers between 150 and 180. Ensure data consistency and integrity before proceeding with analysis. (1 mark)</p>
 <p>Analysis Tasks:<br>
 1. Determine the distribution of employees across each team and calculate the percentage split relative to the total number of employees. (2 marks)<br>
 2. Segregate employees based on their positions within the company. (2 marks)<br>
@@ -71,3 +59,30 @@ Provide insights gained from the analysis, highlighting key trends, patterns, an
 understanding the factors that influence Airbnb prices in New York City, or identifying patterns of all variables and Our analysis provides useful information for travelers and hosts in the city and also provides some best insights for Airbnb business.
 
 
+## **Project Work flow**
+
+1. Importing Libraries
+
+2. Loading the Dataset
+
+3. Exploring/Inspecting Dataset
+
+3. Data Cleaning
+
+4. Performing Analysis Tasks 
+
+5. Data Visualization
+
+6. Deriving Insights
+
+
+## **Data Preprocessing**
+
+The imported data frame was inspected for null and inconsistent values and following conclusions were drawn.
+- Column 'Height' which is expected to contain numerical data has inconsistent values.
+- Colums 'Salary' and 'College' have missing values.
+
+Decided to handle these data integrity issues as specified below:
+- The data in the "Height" column is replaced with random numbers between 150 and 180.
+- Missing values in 'Salary' are filled with average salary of employees of respective teams.
+- Missing values in 'College' are filled with value 'Unknown'
