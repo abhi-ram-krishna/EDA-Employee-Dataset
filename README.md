@@ -95,4 +95,4 @@ Decided to handle these data integrity issues as specified below:
 ![d2](https://github.com/abhi-ram-krishna/EDA-Employee-Dataset/assets/42677472/5517e8aa-3a37-49f8-aa7d-907cdff23445)
 
 ## Insights Gained
-Insights of tasks are provided in the notebook file
+Insights of tasks are provided in the notebook file along with the tasks. Kindly check the file.
