@@ -4,12 +4,12 @@ The dataset containing employee attributes was analyzed based on given queries, 
 
 # Table Of Contents
   
-  - [About the Dataset]
-  - [Python libraries used]
-  - [Problem Statement]
-  - [Project Work flow]
-  - [Data Preprocessing]
-  - [purpose of the analysis]
+  - About the Dataset
+  - Python libraries used
+  - Problem Statement
+  - Project Work flow
+  - Data Preprocessing
+  - purpose of the analysis
 
 
 ## **About the Dataset**
@@ -27,7 +27,7 @@ The dataset containing employee attributes was analyzed based on given queries, 
 *   Numerical data: Number, Age, Height, Weight, Salary
 
 
-## ** Python Libraries Used**
+##  Python Libraries Used
 
 * Pandas
 
@@ -38,7 +38,7 @@ The dataset containing employee attributes was analyzed based on given queries, 
 * Matplotlib.Pyplot
 
 
-## **Problem Statement** 
+## Problem Statement
 
 <p>As a culminating project, you'll be working with a dataset from ABC company, consisting of 458 rows and 9 columns. The company requires a comprehensive report detailing information about their employees across various teams. Your tasks include preprocessing the dataset, analyzing the data, and presenting your findings graphically. Here's a breakdown of what you need to do:</p>
 <p>Preprocessing:
@@ -59,7 +59,7 @@ Provide insights gained from the analysis, highlighting key trends, patterns, an
 understanding the factors that influence Airbnb prices in New York City, or identifying patterns of all variables and Our analysis provides useful information for travelers and hosts in the city and also provides some best insights for Airbnb business.
 
 
-## **Project Work flow**
+## Project Work flow
 
 1. Importing Libraries
 
@@ -76,7 +76,7 @@ understanding the factors that influence Airbnb prices in New York City, or iden
 6. Deriving Insights
 
 
-## **Data Preprocessing**
+## Data Preprocessing
 
 The imported data frame was inspected for null and inconsistent values and following conclusions were drawn.
 - Column 'Height' which is expected to contain numerical data has inconsistent values.
